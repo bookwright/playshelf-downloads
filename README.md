@@ -11,17 +11,17 @@ Nothing here was changed. Each release holds the exact files Playshelf installs,
 | `easyrpg-player-0.8.1.1` | EasyRPG Player 0.8.1.1 for macOS | [easyrpg.org](https://easyrpg.org/player/downloads/) | GPL-3.0 |
 | `safety-scripts-2185abd` | Scripts that keep NW.js games from starting programs or going online | [m5kro/RPG-Maker-MacOS-Launcher](https://github.com/m5kro/RPG-Maker-MacOS-Launcher/tree/2185abd23119eead10278dc546800350ab1e46a4) | GPL-3.0 |
 | `cheat-ui-1.0.3` | Cheat menu for RPG Maker MV/MZ, with the Vuetify and Material Design Icons styles it uses | [paramonos/RPG-Maker-MV-MZ-Cheat-UI-Plugin](https://github.com/paramonos/RPG-Maker-MV-MZ-Cheat-UI-Plugin/releases/tag/v1.0.3), [Vuetify 2.6.3](https://www.npmjs.com/package/vuetify/v/2.6.3), [@mdi/font 6.9.96](https://www.npmjs.com/package/@mdi/font/v/6.9.96) | MIT; icons and font Apache-2.0 |
+| `fluidr3-gm-3.1` | FluidR3_GM MIDI soundfont by Frank Wen (Debian's `fluid-soundfont_3.1.orig.tar.gz`) | [Debian](https://packages.debian.org/source/stable/fluid-soundfont) | MIT |
 
 ## Source code
 
 - **MKXP-Z:** The build's `Info.plist` names commit `a4f4500` of m5kro's fork; `mkxp-z-source-a4f4500.tar.gz` is that commit. m5kro committed a fix for Japanese file names on macOS (`8124670`) three minutes before uploading the build, so it may be part of it; it is included as `fix-japanese-filenames-8124670.patch`. The libraries mkxp-z bundles are fetched and built by its build files from their own sources.
 - **EasyRPG Player:** `easyrpg-player-0.8.1.1-source.tar.gz` is the 0.8.1.1 tag of [EasyRPG/Player](https://github.com/EasyRPG/Player). It uses [liblcf](https://github.com/EasyRPG/liblcf) (MIT).
-- **Kawariki, safety scripts, cheat menu:** these are the source.
+- **Kawariki, safety scripts, cheat menu, soundfont:** these are the source.
 
 ## Not here
 
 - **RPG Maker RTPs.** They belong to Kadokawa, whose license doesn't allow passing them on. Playshelf downloads them from [rpgmakerweb.com](https://www.rpgmakerweb.com/run-time-package) only.
 - **NW.js.** Playshelf downloads it from [nwjs.io](https://nwjs.io).
-- **The GMGSx soundfont.** Its license is unclear.
 
 Each release lists the SHA-256 of its files.
